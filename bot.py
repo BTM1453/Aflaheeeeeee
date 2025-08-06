@@ -25,8 +25,6 @@ from logging_helper import LOGGER
 import os
 
 
-URL = os.getenv("PING_URL", "http://127.0.0.1")
-
 botStartTime = time.time()
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
